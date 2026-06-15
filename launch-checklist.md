@@ -33,12 +33,13 @@ This is the root launch tracker for Snugged.Shop. Use it to keep the build, acco
 
 ## GitHub
 
-- [ ] Add GitHub remote: `https://github.com/ungaaaabungaaa/snugged.git`.
-- [ ] Commit initial scaffold.
-- [ ] Push `main` to GitHub.
-- [ ] Confirm GitHub default branch is `main`.
+- [x] Add GitHub remote: `https://github.com/ungaaaabungaaa/snugged.git`.
+- [x] Commit initial scaffold.
+- [x] Push `main` to GitHub.
+- [x] Confirm GitHub default branch is `main`.
 - [ ] Add branch protection after first successful push.
 - [ ] Add repository secrets after accounts are ready.
+- [ ] Decide whether to move `figma/snugged.fig` to Git LFS because GitHub warned it is 97.71 MB.
 
 ## Account Setup Still Needed
 
@@ -198,4 +199,3 @@ This is the root launch tracker for Snugged.Shop. Use it to keep the build, acco
 - [ ] Automated social product posting.
 - [ ] Abandoned cart notifications.
 - [ ] Loyalty or referral program.
-

@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "types": ["node"],
+    "allowImportingTsExtensions": true,
+    "paths": {
+      "@snugged/types": ["../../packages/types/src/index.ts"],
+      "@snugged/types/*": ["../../packages/types/src/*"],
+      "@snugged/config": ["../../packages/config/src/index.ts"],
+      "@snugged/config/*": ["../../packages/config/src/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "medusa-config.ts"]
+}

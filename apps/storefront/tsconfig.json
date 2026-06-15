@@ -1,0 +1,23 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "allowJs": true,
+    "baseUrl": ".",
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [{ "name": "next" }],
+    "paths": {
+      "@/*": ["./*"],
+      "@snugged/types": ["../../packages/types/src/index.ts"],
+      "@snugged/types/*": ["../../packages/types/src/*"],
+      "@snugged/config": ["../../packages/config/src/index.ts"],
+      "@snugged/config/*": ["../../packages/config/src/*"],
+      "@snugged/analytics": ["../../packages/analytics/src/index.ts"],
+      "@snugged/analytics/*": ["../../packages/analytics/src/*"],
+      "@snugged/ui": ["../../packages/ui/src/index.ts"],
+      "@snugged/ui/*": ["../../packages/ui/src/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
+}

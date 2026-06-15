@@ -1,0 +1,36 @@
+{
+  "name": "@snugged/medusa",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "medusa develop",
+    "build": "medusa build",
+    "start": "medusa start",
+    "seed": "medusa exec ./src/scripts/seed.ts",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@medusajs/admin-shared": "^2.15.5",
+    "@medusajs/admin-sdk": "^2.15.5",
+    "@medusajs/dashboard": "^2.15.5",
+    "@medusajs/draft-order": "^2.15.5",
+    "@medusajs/framework": "^2.15.5",
+    "@medusajs/medusa": "^2.15.5",
+    "@sentry/node": "^9.29.0",
+    "@snugged/config": "workspace:*",
+    "@snugged/types": "workspace:*",
+    "awilix": "^8.0.1",
+    "pg": "^8.16.2",
+    "razorpay": "^2.9.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "resend": "^4.6.0",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "eslint": "^9.29.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}

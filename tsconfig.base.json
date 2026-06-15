@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["DOM", "DOM.Iterable", "ES2022"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": ".",
+    "paths": {
+      "@snugged/types": ["packages/types/src/index.ts"],
+      "@snugged/types/*": ["packages/types/src/*"],
+      "@snugged/config": ["packages/config/src/index.ts"],
+      "@snugged/config/*": ["packages/config/src/*"],
+      "@snugged/analytics": ["packages/analytics/src/index.ts"],
+      "@snugged/analytics/*": ["packages/analytics/src/*"],
+      "@snugged/ui": ["packages/ui/src/index.ts"],
+      "@snugged/ui/*": ["packages/ui/src/*"]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+Snugged.Shop is a fashion-only ecommerce store for India.
+
+Allowed categories include thrift clothes, new and pre-owned fashion clothes, jewellery, bags, shoes, watches, belts, sunglasses, fashion accessories, one-of-one fashion pieces, and AI try-on enabled fashion items.
+
+The store does not sell vegetables, hydroponics products, 3D printed toys, pottery, food products, or non-fashion subscriptions.
+
+Canonical domain: https://snugged.shop
+Support model: WhatsApp-first support and order notifications.
+Checkout model: guest browsing, local cart and wishlist, account creation only during checkout phone OTP.

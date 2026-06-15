@@ -1,0 +1,21 @@
+# Launch Checklist
+
+- [ ] Add GitHub remote and push `main`.
+- [ ] Create Cloudflare R2 bucket.
+- [ ] Configure product image upload path.
+- [ ] Buy SIM and connect WhatsApp Business number.
+- [ ] Run OpenWA session and scan QR.
+- [ ] Create Razorpay account and webhook.
+- [ ] Choose delivery provider or aggregator.
+- [ ] Create Resend account and verify sender domain.
+- [ ] Create Sentry projects.
+- [ ] Create PostHog project.
+- [ ] Add GA4, Meta Pixel, Google Ads tag, and TikTok Pixel IDs.
+- [ ] Add GST/invoice details when ready.
+- [ ] Create Medusa Admin user.
+- [ ] Seed or manually add products.
+- [ ] Verify one-of-one inventory cannot oversell.
+- [ ] Verify cart and wishlist localStorage behavior.
+- [ ] Verify checkout OTP stub, address, payment stub, success, and failure.
+- [ ] Verify WhatsApp service rejects missing internal API key.
+- [ ] Replace stub payment and delivery behavior with real integrations.
